@@ -169,7 +169,6 @@ If the program plugin's option **Include in global result** is not selected, inc
 > [!IMPORTANT]
 > Please be aware of the different decimal and thousand delimiters supported by different locals.
 > The Calculator plugin respects the number format settings of your system. If you prefer the English (United States) number format, change the behavior for the query input and the result output in the [plugin manager](#plugin-manager).
-> If your system's number format uses the comma (`,`) as the decimal delimiter, you have to include a space between the number(s) and comma(s) on operations with multiple parameters. The input has to look like this: `min( 1,2 , 3 , 5,7)` or `min( 1.2 , 3 , 5.7)`.
 
 > [!TIP]
 > The Calculator plugin can handle some implied multiplications like `2(3+4)` and `(1+2)(3+4)` by inserting the multiplication operator where appropriate.
