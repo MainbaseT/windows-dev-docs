@@ -60,3 +60,34 @@ For this reason, the Windows Package Manager desktop installer supports a policy
 “Certificate Pinning” ensures that the package manager connection to the Microsoft Store is secure, helping to avoid risks associated with attacks such as Man-in-the-Middle (MITM) attacks involving a third party inserting themselves between a client (user) and server (application) to secretly intercept communication flows to steal sensitive data such as login credentials, etc. Disabling “Certificate Pinning” (enabling the bypass) can expose your organization to risk in this area and should be avoided.
 
 To learn more about setting up Group Policy for your enterprise organization, see the [Microsoft Intune documentation](/mem/intune/).
+
+## Additional Group Policy settings for Windows Package Manager
+
+Windows Package Manager offers additional configurations options available via Group Policy, enabling IT administrators to manage and control its functionality across devices. These settings are especially useful for enterprise environments where compliance and consistency are critical.
+
+The additional Group Policy templates for Windows Package Manager are included from Windows 11 build (x) onwards, and are also included with each release. Each template can be divided into multiple subcategories, enabling IT administrators to configure key aspects of the tool's behavior, such as:
+
+- **Source Control**: Specify which sources are allowed or blocked.
+- **Local Development**: Control whether users are allowed to enable experimental features or local manifest installations.
+- **Execution Policies**: Set policies for the command line interface and proxy options.
+
+To download the Group Policy templates:
+
+1. Navigate to the [Windows Package Manage GitHub releases](https://github.com/microsoft/winget-cli/releases) page.
+2. Locate the release version you wish to use.
+3. Download the `DesktopAppInstallerPolicies.zip` file included in the release assets.
+
+The ZIP file contains the necessary `.admx` and `.adml` files for deploying the policies. Once you've downloaded the `DesktopAppInstallerPolicies.zip` file:
+
+1. Extract the contents of the ZIP file on your local machine.
+2. Copy the `.admx` file to the `C:\Windows\PolicyDefinitions` folder on the target device.
+3. Copy the corresponding language-specific `.adml` file to the appropriate subdirectory, such as `C:\Windows\PolicyDefinitions\en-US`.
+4. Open the Group Policy Management Console (GPMC) to configure the policies.
+
+> [!NOTE]
+> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, visit the following [documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+
+New Group Policy settings may be introduced with each release of Windows Package Manager. To ensure your environment is always up to date:
+
+- Regularly check for updates on the [Windows Package Manager GitHub repository](https://github.com/microsoft/winget-cli/releases) page.
+- Review the release notes for changes or additions to the policy templates.
