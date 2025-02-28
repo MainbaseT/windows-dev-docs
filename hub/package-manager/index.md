@@ -85,7 +85,7 @@ The ZIP file contains the necessary `.admx` and `.adml` files for deploying the 
 4. Open the Group Policy Management Console (GPMC) to configure the policies.
 
 > [!NOTE]
-> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, visit the following [documentation](troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, visit the following [documentation](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
 New Group Policy settings may be introduced with each release of Windows Package Manager. To ensure your environment is always up to date:
 
