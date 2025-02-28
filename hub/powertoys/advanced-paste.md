@@ -1,7 +1,7 @@
 ---
 title: PowerToys Advanced Paste for Windows
 description: A tool that enables you to paste the text from your clipboard into any format needed. It can be enhanced with an AI-powered option that is 100% opt-in and requires an OpenAI key.
-ms.date: 12/13/2024
+ms.date: 02/28/2025
 ms.topic: concept-article
 no-loc: [PowerToys, Windows, Paste as Plain Text, Advanced Paste, Win]
 # Customer intent: Learn how to use the Advanced Paste feature in PowerToys to paste text from your clipboard into any format needed.
