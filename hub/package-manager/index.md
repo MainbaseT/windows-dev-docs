@@ -63,9 +63,9 @@ To learn more about setting up Group Policy for your enterprise organization, se
 
 ## Additional Group Policy settings for Windows Package Manager
 
-Windows Package Manager offers additional configurations options available via Group Policy, enabling IT administrators to manage and control its functionality across devices. These settings are especially useful for enterprise environments where compliance and consistency are critical.
+Windows Package Manager provides additional configuration options through Group Policy, allowing IT administrators to manage and control functionality across multiple devices. These settings are particularly beneficial for enterprise environments where compliance and consistency are critical.
 
-The additional Group Policy templates for Windows Package Manager are included from Windows 11 build (x) onwards, and are also included with each release. Each template can be divided into multiple subcategories, enabling IT administrators to configure key aspects of the tool's behavior, such as:
+Starting from Windows 11 build (x), additional Group Policy templates for Windows Package Manager are included with each release. These templates are divided into several subcategories, enabling IT administrators to configure key aspects of the tool's behavior, such as:
 
 - **Source Control**: Specify which sources are allowed or blocked.
 - **Local Development**: Control whether users are allowed to enable experimental features or local manifest installations.
@@ -73,7 +73,7 @@ The additional Group Policy templates for Windows Package Manager are included f
 
 To download the Group Policy templates:
 
-1. Navigate to the [Windows Package Manage GitHub releases](https://github.com/microsoft/winget-cli/releases) page.
+1. Visit [Windows Package Manage GitHub releases](https://github.com/microsoft/winget-cli/releases).
 2. Locate the release version you wish to use.
 3. Download the `DesktopAppInstallerPolicies.zip` file included in the release assets.
 
@@ -85,7 +85,7 @@ The ZIP file contains the necessary `.admx` and `.adml` files for deploying the 
 4. Open the Group Policy Management Console (GPMC) to configure the policies.
 
 > [!NOTE]
-> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, visit the following [documentation](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, see [How to create and manage the Central Store for Group Policy Administrative Templates in Windows](/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
 New Group Policy settings may be introduced with each release of Windows Package Manager. To ensure your environment is always up to date:
 
