@@ -37,11 +37,11 @@ From the Settings menu, the following options can be configured:
 | Paste as plain text directly shortcut | The customizable keyboard command to paste as plain text without opening the **Advanced Paste** window. |
 | Paste as Markdown directly shortcut | The customizable keyboard command to paste as Markdown without opening the **Advanced Paste** window. |
 | Paste as JSON directly shortcut | The customizable keyboard command to paste as JSON without opening the **Advanced Paste** window. |
-| Additional actions - Image to Text | Turn on/off the Image to text paste action and configure the customizable keyboard command. |
-| Additional actions - Paste as file | Turn on/off the set of Paste as File actions which include Paste as .txt file, Paste as .png file, Paste as .html file. Optionally configure the customizable keyboard command for each of these actions. |
-| Additional actions - Transcode audio / video | Turn on/off both the Transcode audio and video paste actions. |
-| Additional actions - Transcode to .mp3 | Turn on/off the Transcode to .mp3 paste action and configure the customizable keyboard command to transcode audio or video on the clipboard without opening the **Advanced Paste** window. |
-| Additional actions - Transcode to .mp4 (H.264/AAC) | Turn on/off the Transcode to .mp4 (H.264/AAC) paste action and configure the customizable keyboard command to transcode video on the clipboard without opening the **Advanced Paste** window. |
+| Additional actions \| Image to Text | Turn on/off the Image to text paste action and configure the customizable keyboard command. |
+| Additional actions \| Paste as file | Turn on/off the set of Paste as File actions which include Paste as .txt file, Paste as .png file, Paste as .html file. Optionally configure the customizable keyboard command for each of these actions. |
+| Additional actions \| Transcode audio / video | Turn on/off both the Transcode audio and video paste actions. |
+| Additional actions \| Transcode to .mp3 | Turn on/off the Transcode to .mp3 paste action and configure the customizable keyboard command to transcode audio or video on the clipboard without opening the **Advanced Paste** window. |
+| Additional actions \| Transcode to .mp4 (H.264/AAC) | Turn on/off the Transcode to .mp4 (H.264/AAC) paste action and configure the customizable keyboard command to transcode video on the clipboard without opening the **Advanced Paste** window. |
 
 > [!IMPORTANT]
 > It's possible to set <kbd>Ctrl</kbd>+<kbd>V</kbd> as an activation shortcut. This is not recommended, as overriding this shortcut may have unintended consequences.
