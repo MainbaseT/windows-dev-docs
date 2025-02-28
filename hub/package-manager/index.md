@@ -49,7 +49,7 @@ The WinGet client can be used in the command line to install and manage applicat
 
 To maintain ongoing security updates, the WinGet client is released using the Microsoft Store and installs applications from the Microsoft Store using the [“msstore” source](./winget/source.md) and applying  “certificate pinning” to ensure that the connection is secure and established with the proper endpoint.
 
-The Group Policy applied by your enterprise organization may be using SSL inspection via a firewall between the WinGet client and the Microsoft Store source that causes a connection error to appear in the WinGet client. 
+The Group Policy applied by your enterprise organization may be using SSL inspection via a firewall between the WinGet client and the Microsoft Store source that causes a connection error to appear in the WinGet client.
 
 For this reason, the Windows Package Manager desktop installer supports a policy setting called: “BypassCertificatePinningForMicrosoftStore”.  This policy controls whether the Windows Package Manager will validate the Microsoft Store certificate hash matches to a known Microsoft Store certificate when initiating a connection to the Microsoft Store Source. The options for this policy include:
 
@@ -85,7 +85,7 @@ The ZIP file contains the necessary `.admx` and `.adml` files for deploying the 
 4. Open the Group Policy Management Console (GPMC) to configure the policies.
 
 > [!NOTE]
-> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, visit the following [documentation](https://learn.microsoft.com/en-us/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
+> When working on a Windows Domain Controller, you can store the Group Policy templates in the Central Store. For detailed instructions, visit the following [documentation](https://learn.microsoft.com/troubleshoot/windows-client/group-policy/create-and-manage-central-store).
 
 New Group Policy settings may be introduced with each release of Windows Package Manager. To ensure your environment is always up to date:
 
