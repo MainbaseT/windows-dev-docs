@@ -65,7 +65,7 @@ To learn more about setting up Group Policy for your enterprise organization, se
 
 Windows Package Manager provides additional configuration options through Group Policy, allowing IT administrators to manage and control functionality across multiple devices. These settings are particularly beneficial for enterprise environments where compliance and consistency are critical.
 
-Starting from Windows 11 build (x), additional Group Policy templates for Windows Package Manager are included with each release. These templates are divided into several subcategories, enabling IT administrators to configure key aspects of the tool's behavior, such as:
+Beginning in Windows 11, additional Group Policy templates for Windows Package Manager are included with each release. These templates are divided into several subcategories, enabling IT administrators to configure key aspects of the tool's behavior, such as:
 
 - **Source Control**: Specify which sources are allowed or blocked.
 - **Local Development**: Control whether users are allowed to enable experimental features or local manifest installations.
